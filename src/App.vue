@@ -9,6 +9,7 @@
         <v-btn outline class="blue" @click="sidebar = !sidebar">
           <v-btn-text>sidebar</v-btn-text>
         </v-btn>
+        <!--<CSV />-->
       </v-app-bar>
     </div>
     <v-content class="fill-height">
@@ -44,6 +45,7 @@
 <script>
 import Input from "./components/Input.vue";
 import Visualization from "./components/Visualization";
+//import CSV from "./components/CSV.vue";
 
 export default {
   name: "App",
@@ -51,6 +53,7 @@ export default {
   components: {
     Input,
     Visualization
+    //CSV
   },
 
   data: () => ({
